@@ -1,0 +1,35 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","adeus","Até mais"],
+    "responses": ["Até breve!","Tchau!","Até Logo!"]
+  },
+  { "tag": "entrega",
+    "patterns":["Quando sera a entrega do tcc?","A entrega do tcc será em que dia?","Quando é a entrega do tcc?","Que dia temos que entregar o tcc?"],
+    "responses": ["No final do semestre!","A entrega será nos ultimos dias!"]
+  },
+  { "tag": "professor",
+    "patterns":["Quem é o professor dessa disciplina?","Qual o nosso professor?","Qual professor que vai dar esta aula?"],
+    "responses": ["Dr. Ricardo Destro","Professor Destro"]
+  },
+  { "tag": "comecotcc",
+    "patterns":["Do que preciso para começar o tcc?","Como posso começar o tcc?","Devo começar o tcc por onde?","O que deve ter no meu TCC?"],
+    "responses": ["Começe escolhendo o seu Grupo, em seguida Professor Orientador e por fim seu tema.","Procure começar pelo Grupo, depois pense e um Orientador e um Tema."]
+  },
+  { "tag": "temas",
+    "patterns":["Como posso pensar em um tema?","Qual tema pode ser bom para o tcc?","Deveria utilizar qual tema?"],
+    "responses": ["Existem muitos temas na internet, caso precise começe pesquisando por lá.","Utilize um tema de relacionado a I.A. Está bastante em alta!","Você pode perguntar a o chatGPT, ele tem mais conhecimento do que eu!"]
+  },
+  { "tag": "orientador",
+    "patterns":["Como posso escolher meu orientador?","Qual orientador combina mais?","Quem pode ser orientador?"],
+    "responses": ["O professor orientador pode ser qualquer professor da FEI!.","Pense em um professor que você goste, e entenda do tema!OBS: Será bom se ele gostar de você também =)","Procure um orientador que entenda bem do tema!"]
+  },
+  { "tag": "grupos",
+    "patterns":["Quais membros devo escolher para o grupo?","Como posso escolher os membros do meu grupo?","Devo priorizar meus amigos para formar os grupos?"],
+    "responses": ["Procure pessoas que entendam do tema e possuam o mesmo interesse que você.","Procure por seus colegas, mas lembre-se de montar uma boa equipe independente se fazem parte ou nâo do seu grupo.","Pense bem nos seus membros, eles estaram presos a você durante todo este projeto."]
+  }
+]
+}
